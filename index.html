@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dr. Ram Prasad Gandhiraman</title>
+  <meta name="description" content="Dr. Ram Prasad Gandhiraman - Entrepreneur, plasma manufacturing expert, printed electronics technologist, and Founder & CEO of Space Foundry Inc." />
+  <style>
+    :root {
+      --bg: #f7f8fb;
+      --card: #ffffff;
+      --text: #1f2937;
+      --muted: #5b6472;
+      --accent: #0f766e;
+      --accent-dark: #115e59;
+      --border: #e5e7eb;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    a:hover {
+      color: var(--accent-dark);
+      text-decoration: underline;
+    }
+
+    .container {
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: 32px 20px;
+    }
+
+    header {
+      background: linear-gradient(135deg, #2563eb, #1e3a8a);
+      color: white;
+      padding: 72px 20px;
+    }
+
+    .hero {
+      max-width: 1080px;
+      margin: 0 auto;
+    }
+
+    .hero h1 {
+      font-size: 44px;
+      line-height: 1.15;
+      margin: 0 0 12px;
+    }
+
+    .hero .tagline {
+      font-size: 21px;
+      font-weight: 600;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      max-width: 800px;
+      font-size: 18px;
+      color: #e6fffb;
+    }
+
+    .contact-links {
+      margin-top: 24px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .contact-links a {
+      background: rgba(255,255,255,0.14);
+      border: 1px solid rgba(255,255,255,0.35);
+      color: white;
+      padding: 10px 14px;
+      border-radius: 999px;
+      font-size: 14px;
+    }
+
+    section {
+      background: var(--card);
+      margin: 24px 0;
+      padding: 34px;
+      border-radius: 18px;
+      border: 1px solid var(--border);
+      box-shadow: 0 10px 30px rgba(15, 23, 42, 0.04);
+    }
+
+    h2 {
+      font-size: 28px;
+      margin: 0 0 18px;
+      color: #0f172a;
+    }
+
+    h3 {
+      margin-top: 24px;
+      margin-bottom: 8px;
+      font-size: 20px;
+      color: #134e4a;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+    }
+
+    .card {
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 20px;
+      background: #fbfdff;
+    }
+
+    .card h3 {
+      margin-top: 0;
+    }
+
+    ul {
+      padding-left: 20px;
+      margin-top: 10px;
+    }
+
+    .highlights {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 14px;
+      margin-top: 20px;
+    }
+
+    .metric {
+      background: #ecfdf5;
+      border: 1px solid #ccfbf1;
+      border-radius: 14px;
+      padding: 18px;
+      text-align: center;
+    }
+
+    .metric strong {
+      display: block;
+      font-size: 24px;
+      color: #0f766e;
+    }
+
+    .metric span {
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    .muted {
+      color: var(--muted);
+    }
+
+    footer {
+      text-align: center;
+      color: var(--muted);
+      padding: 28px 20px 48px;
+      font-size: 14px;
+    }
+
+
+    .link-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; margin-top: 14px; }
+    .link-card { border: 1px solid var(--border); border-radius: 14px; padding: 18px; background: #fbfdff; }
+    .link-card strong { display: block; color: #0f172a; margin-bottom: 6px; }
+    .award-gallery { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; margin-top: 18px; }
+    figure { margin: 0; border: 1px solid var(--border); border-radius: 16px; overflow: hidden; background: #ffffff; box-shadow: 0 8px 24px rgba(15, 23, 42, 0.05); }
+    figure img { width: 100%; display: block; }
+    figcaption { padding: 14px 16px; color: var(--muted); font-size: 14px; line-height: 1.5; }
+    .award-callout { background: #eff6ff; border-left: 5px solid #2563eb; padding: 18px 20px; border-radius: 12px; margin: 18px 0; }
+    @media (max-width: 860px) { .link-grid, .award-gallery { grid-template-columns: 1fr; } }
+
+    @media (max-width: 860px) {
+      .hero h1 {
+        font-size: 34px;
+      }
+
+      .grid,
+      .highlights {
+        grid-template-columns: 1fr;
+      }
+
+      section {
+        padding: 24px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="hero">
+    <h1>Dr. Ram Prasad Gandhiraman</h1>
+    <div class="tagline">Entrepreneur | Plasma Manufacturing | Printed Electronics | Deep-Tech Commercialization</div>
+    <p>
+      I build and commercialize advanced manufacturing technologies based on plasma physics and materials science.
+      My work focuses on translating deep-tech innovations into real-world systems, products, and businesses — from
+      lab-scale research to deployed hardware platforms.
+    </p>
+    <div class="contact-links">
+      <a href="mailto:ram@spacefoundry.us">ram@spacefoundry.us</a>
+      <a href="mailto:ramprasad.gandhiraman@gmail.com">ramprasad.gandhiraman@gmail.com</a>
+      <a href="https://www.spacefoundry.us/" target="_blank" rel="noopener">Space Foundry</a>
+      <a href="https://scholar.google.com/citations?user=XBX8JlwAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
+      <a href="https://www.linkedin.com/in/ram-prasad-gandhiraman-64863624/" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+  </div>
+</header>
+
+<main class="container">
+
+  <section>
+    <h2>About</h2>
+    <p>
+      I am a deep-tech entrepreneur, materials scientist, and technologist with expertise in plasma-based manufacturing,
+      printed electronics, and advanced materials.
+    </p>
+    <p>
+      I am the Founder and CEO of Space Foundry Inc., a Silicon Valley startup spun out of NASA Ames/USRA.
+      I built the company from the ground up to commercialize plasma jet printing technology for next-generation
+      electronics and manufacturing applications.
+    </p>
+  </section>
+
+  <section>
+    <h2>Executive Summary</h2>
+    <p>
+      Entrepreneur and deep-tech leader with a track record of developing, commercializing, and deploying plasma-based
+      manufacturing technologies. Founder of a NASA spinoff startup, with experience spanning research, product development,
+      customer engagement, IP, licensing, fundraising, and revenue generation.
+    </p>
+
+    <div class="highlights">
+      <div class="metric"><strong>$5M+</strong><span>R&D funding</span></div>
+      <div class="metric"><strong>8</strong><span>issued US patents</span></div>
+      <div class="metric"><strong>50+</strong><span>peer-reviewed papers</span></div>
+      <div class="metric"><strong>75+</strong><span>global talks</span></div>
+      <div class="metric"><strong>10+</strong><span>countries presented</span></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Core Skills & Expertise</h2>
+
+    <div class="grid">
+      <div class="card">
+        <h3>Technical Expertise</h3>
+        <ul>
+          <li>Plasma processing and plasma jet systems</li>
+          <li>Printed electronics and additive manufacturing</li>
+          <li>Materials science and surface engineering</li>
+          <li>Graphene and nanomaterials processing</li>
+          <li>Sensors, biosensors, and functional materials</li>
+          <li>Process development, characterization, and scale-up</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Entrepreneurship & Business</h3>
+        <ul>
+          <li>Deep-tech startup building and commercialization</li>
+          <li>Product-market fit discovery</li>
+          <li>Fundraising and investor engagement</li>
+          <li>NASA/USRA licensing and technology transfer</li>
+          <li>Customer acquisition, sales, and partnerships</li>
+          <li>Contracts, NDAs, and joint development agreements</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Leadership & Execution</h3>
+        <ul>
+          <li>Hiring, team building, and leadership</li>
+          <li>Program and project management</li>
+          <li>Government, academic, and industry collaboration</li>
+          <li>Principal Investigator on R&D programs</li>
+          <li>Research-to-product execution</li>
+          <li>Post-sales customer engagement</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Research & Technical Impact</h2>
+    <p>
+      My work sits at the intersection of materials science, plasma physics, and advanced manufacturing.
+      I developed plasma jet printing technology at NASA Ames and commercialized it through Space Foundry.
+    </p>
+    <ul>
+      <li>Development of plasma jet printing technology at NASA Ames, recognized through NASA Ames Honor and Patent Awards</li>
+      <li>Commercialization of plasma-based manufacturing systems</li>
+      <li>Early work in graphene and nanomaterials processing</li>
+      <li>Development of biosensors and plasma surface functionalization platforms</li>
+      <li>Principal/Co-Investigator on NASA, DoD, NSF, and DoE projects</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+
+    <h3>Plasma Jet Printing Platform</h3>
+    <p>
+      Core technology developed at NASA Ames and commercialized through Space Foundry. The platform enables
+      direct-write plasma-based printing of electronic materials and manufacturing on complex 3D surfaces.
+    </p>
+
+    <h3>In-Space Manufacturing of Electronics</h3>
+    <p>
+      Development of plasma printing technologies for microgravity environments with applications in
+      space-based manufacturing, on-demand electronics, and future space infrastructure.
+    </p>
+
+    <h3>Conformal Electronics Manufacturing</h3>
+    <p>
+      Printing electronics directly onto structural surfaces for aerospace, automotive, robotics, sensors,
+      and advanced electronics applications.
+    </p>
+
+    <h3>Plasma Surface Functionalization & Biosensors</h3>
+    <p>
+      Development and commercialization of plasma processes for high-throughput biosensor functionalization
+      and advanced surface engineering.
+    </p>
+  </section>
+
+
+  <section>
+    <h2>Media & Talks</h2>
+    <p>Selected technical talks, speaker profiles, and demonstrations highlighting plasma jet printing, in-space manufacturing of electronics, conformal electronics, and precision digital plasma deposition.</p>
+    <h3>Selected Talks & Speaker Profiles</h3>
+    <div class="link-grid">
+      <div class="link-card"><strong>In-Space Manufacturing of Printed Electronics - IIT Madras Make in Space Talks</strong><a href="https://www.youtube.com/watch?v=cRf2aKhXW2Q" target="_blank" rel="noopener">Watch talk</a></div>
+      <div class="link-card"><strong>Precision Digital Plasma Deposition - TechBlick</strong><a href="https://www.youtube.com/watch?v=68rSFXo0aoc" target="_blank" rel="noopener">Watch talk</a></div>
+      <div class="link-card"><strong>TechBlick Speaker Profile - The Future of Electronics RESHAPED, Berlin 2023</strong><a href="https://www.techblick.com/speakerdirectory/ram-prasad-gandhiraman-space-foundry-berlin2023" target="_blank" rel="noopener">View speaker profile</a></div>
+      <div class="link-card"><strong>Stanford Beyond Earth - Semiconductor Manufacturing in the Space Domain</strong><a href="https://beyondearth.stanford.edu/people/ram-prasad-gandhiraman" target="_blank" rel="noopener">View profile</a></div>
+    </div>
+    <h3>Technology Demonstrations</h3>
+    <div class="link-grid">
+      <div class="link-card"><strong>Microgravity Plasma Jet Printing Demo</strong><a href="https://www.youtube.com/watch?v=kPkzV9jXOS4" target="_blank" rel="noopener">Watch demo</a></div>
+      <div class="link-card"><strong>Conformal Electronics Printing on 3D Surfaces</strong><a href="https://www.youtube.com/watch?v=szGJi_7juJg" target="_blank" rel="noopener">Watch demo</a></div>
+      <div class="link-card"><strong>Conformal Plasma Jet Printer</strong><a href="https://www.youtube.com/watch?v=lhT9UcVRbVU" target="_blank" rel="noopener">Watch demo</a></div>
+      <div class="link-card"><strong>Ram Prasad Gandhiraman - YouTube Channel</strong><a href="https://www.youtube.com/@ramprasadgandhiraman5263" target="_blank" rel="noopener">View channel</a></div>
+    </div>
+  </section>
+
+
+  <section>
+    <h2>NASA Awards & Recognition</h2>
+    <div class="award-callout">
+      <h3>NASA Ames Honor Award</h3>
+      <p><strong>Ames Honor Award for exceptional ingenuity in inventing and developing plasma jet printing technology for space missions.</strong></p>
+      <p>NASA Ames Honor Awards recognize individuals and teams whose work demonstrates outstanding technical achievement, innovation, service, and mission impact at NASA Ames Research Center. This recognition highlights the invention and development of plasma jet printing technology and its relevance to future space manufacturing.</p>
+    </div>
+    <div class="award-gallery">
+      <figure><img src="ACD16-0165-013.jpg" alt="Dr. Eugene Tu presenting NASA Ames Honor Award to Dr. Ram Prasad Gandhiraman"><figcaption>Dr. Eugene Tu, Director of NASA Ames Research Center, presenting the NASA Ames Honor Award to Dr. Ram Prasad Gandhiraman for exceptional ingenuity in inventing and developing plasma jet printing technology for space missions.</figcaption></figure>
+      <figure><img src="NASA Patent award 2014.jpg" alt="NASA Ames Patent Award recognition for plasma jet printing technology"><figcaption>NASA Ames Patent Award recognition for the invention of plasma jet printing technology.</figcaption></figure>
+    </div>
+    <h3>Additional Recognition</h3>
+    <ul>
+      <li>NASA Patent Award for developing plasma jet printing technology</li>
+      <li>NASA Group Achievement Award</li>
+      <li>Dublin City University Commercialization Award</li>
+    </ul>
+  </section>
+
+
+  <section>
+    <h2>Press & Recognition</h2>
+    <h3>Press & Media Coverage</h3>
+    <p>Selected coverage of Space Foundry, plasma jet printing, in-space electronics manufacturing, and related technology commercialization.</p>
+    <div class="link-grid">
+      <div class="link-card"><strong>NASA - Microgravity Testing Advances Space-Based Printing of Electronics</strong><a href="https://www.nasa.gov/centers-and-facilities/armstrong/microgravity-testing-advances-space-based-printing-of-electronics/" target="_blank" rel="noopener">Read article</a></div>
+      <div class="link-card"><strong>NASA Spinoff - Plasma Improves 3D Electronics Printing</strong><a href="https://spinoff.nasa.gov/Plasma-Improves-3D-Electronics-Printing" target="_blank" rel="noopener">Read article</a></div>
+      <div class="link-card"><strong>Tech Briefs - Plasma Improves 3D Electronics Printing</strong><a href="https://www.techbriefs.com/component/content/article/46076-plasma-improves-3d-electronics-printing" target="_blank" rel="noopener">Read article</a></div>
+      <div class="link-card"><strong>3DPrint.com - Electronics 3D Printing Technology Completes Parabolic Flight Testing</strong><a href="https://3dprint.com/292479/electronics-3d-printing-technology-completes-latest-parabolic-flight-testing-ceo-explains/" target="_blank" rel="noopener">Read article</a></div>
+      <div class="link-card"><strong>3D Printing Industry - Plasma-Based 3D Printing and Electronics Production</strong><a href="https://www.3dprintingindustry.com/news/space-foundry-backs-plasma-based-3d-printing-as-the-future-of-electronics-production-162908/" target="_blank" rel="noopener">Read article</a></div>
+      <div class="link-card"><strong>VoxelMatters - Space Foundry Plasma 3D Printed Electronics</strong><a href="https://www.voxelmatters.com/space-foundry-plasma-3d-printed-electronics/" target="_blank" rel="noopener">Read article</a></div>
+      <div class="link-card"><strong>NextFlex - Printing on Flexible Substrates and Beyond</strong><a href="https://www.nextflex.us/printing-on-flexible-substrates-and-beyond/" target="_blank" rel="noopener">Read article</a></div>
+      <div class="link-card"><strong>DCU - Space Foundry Milestone Opens Possibilities for In-Space Manufacturing</strong><a href="https://www.dcu.ie/engineeringandcomputing/news/2022/jan/latest-milestone-space-foundry-opens-new-possibilities-space" target="_blank" rel="noopener">Read article</a></div>
+      <div class="link-card"><strong>US Tech - Beyond the Board: 3D Plasma Jet Printing in Space</strong><a href="https://www.us-tech.com/RelId/2704382/ISvars/default/Beyond_the_Board_3D_Plasma_Jet_Printing_in_Space.htm" target="_blank" rel="noopener">Read article</a></div>
+      <div class="link-card"><strong>YourStory - Born out of NASA and Stanford</strong><a href="https://yourstory.com/2019/09/nasa-startup-space-foundry-tech-plasma-printer-stanford-university" target="_blank" rel="noopener">Read article</a></div>
+    </div>
+    <h3>Awards</h3>
+    <ul>
+      <li>NASA Ames Honor Award - exceptional ingenuity in inventing and developing plasma jet printing technology for space missions</li>
+      <li>NASA Patent Award - recognition for plasma jet printing technology invention</li>
+      <li>NASA Group Achievement Award</li>
+      <li>Dublin City University Commercialization Award</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Publications & Patents</h2>
+    <p>
+      My complete publication record is available on
+      <a href="https://scholar.google.com/citations?user=XBX8JlwAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>.
+    </p>
+    <p>
+      My patent portfolio includes issued and pending patents in plasma processing, printed electronics,
+      surface engineering, and advanced manufacturing.
+      <a href="https://patents.google.com/?inventor=Ram+Prasad+Gandhiraman" target="_blank" rel="noopener">View patents on Google Patents</a>.
+    </p>
+  </section>
+
+  <section>
+    <h2>Professional Experience</h2>
+
+    <h3>Founder & CEO — Space Foundry Inc. (2016–Present)</h3>
+    <p>
+      Commercializing plasma jet printing technology; leading product development, sales, fundraising,
+      customer relationships, government engagement, IP, and partnerships.
+    </p>
+
+    <h3>Research Scientist — NASA Ames / USRA (2012–2017)</h3>
+    <p>
+      Developed plasma jet printing technology, generated seed funding, and built collaborations across NASA centers.
+    </p>
+
+    <h3>Postdoctoral Researcher — Dublin City University (2007–2012)</h3>
+    <p>
+      Developed and commercialized plasma surface technologies; published extensively and filed multiple patents.
+    </p>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p>
+      Email: <a href="mailto:ram@spacefoundry.us">ram@spacefoundry.us</a><br />
+      Email: <a href="mailto:ramprasad.gandhiraman@gmail.com">ramprasad.gandhiraman@gmail.com</a><br />
+      Website: <a href="https://www.spacefoundry.us/" target="_blank" rel="noopener">www.spacefoundry.us</a>
+    </p>
+  </section>
+
+</main>
+
+<footer>
+  © Dr. Ram Prasad Gandhiraman. All rights reserved.
+</footer>
+
+</body>
+</html>
